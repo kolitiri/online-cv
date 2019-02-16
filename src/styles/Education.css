@@ -1,0 +1,40 @@
+.ed-print-header {
+	text-align: center;
+}
+
+.ed-title-space {
+	padding-bottom: 30px;
+}
+
+.ed-company-logo {
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.ed-rgu-logo {
+	height: 60px;
+}
+
+.ed-thes-logo {
+	height: 90px;
+}
+
+.ed-space {
+	padding-bottom: 10px;
+}
+
+.ed-desc {
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+
+.ed-title {
+	font-size: 30px;
+}
+
+.ed-line {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

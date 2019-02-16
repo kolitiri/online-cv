@@ -1,0 +1,14 @@
+.App {
+	text-align: center;
+}
+
+.font {
+	font-family: 'New Century Schoolbook', serif;
+	text-align: justify;
+}
+
+@page {
+	size: A3;
+	margin-left: -5cm;
+	margin-right: -5cm;
+}

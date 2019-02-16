@@ -1,0 +1,44 @@
+.cr-print-header {
+	text-align: center;
+}
+
+.cr-title-space {
+	padding-bottom: 30px;
+}
+
+.cr-company-logo {
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.cr-pt-logo {
+	height: 25px;
+}
+
+.cr-sg-logo {
+	height: 35px;
+}
+
+.cr-gh-logo {
+	height: 45px;
+}
+
+.cr-space {
+	padding-bottom: 10px;
+}
+
+.cr-desc {
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+
+.cr-title {
+	font-size: 30px;
+}
+
+.cr-line {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,50 @@
+.bn-banner {
+	background-image: url('./../images/background.jpeg');
+	min-height: 220px;
+	position: relative
+}
+
+.bn-author-name {
+	color: #fdfdfd !important;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 5px 2px 1px #2b2012;
+	letter-spacing: 1px;
+}
+
+.bn-logos-left {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin-top: 15px;
+	padding-left: 5px !important;
+}
+
+.bn-logos-right {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+.bn-logo {
+	margin: 0 20px 0 0;
+}
+
+.bn-circle-img {
+	width:40px;
+	height:40px;
+}
+
+.bn-printer {
+	background: none;
+	border: none;
+	outline:none;
+	font-size: 25px;
+	color: black;
+}
+
+.bn-center {
+	text-align: center;
+}

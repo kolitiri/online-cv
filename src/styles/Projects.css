@@ -1,0 +1,36 @@
+.pr-print-header {
+	text-align: center;
+	page-break-before: always;
+}
+
+.pr-title-space {
+	padding-bottom: 30px;
+}
+
+.pr-octo-logo {
+	width:40px;
+	height:40px;
+}
+
+.pr-garmin-logo {
+	width:40px;
+	height:40px;
+}
+
+.pr-space {
+	padding-bottom: 10px;
+}
+
+.pr-desc {
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+
+.pr-title {
+	font-size: 30px;
+}
+
+.pr-line {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

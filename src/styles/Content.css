@@ -1,0 +1,15 @@
+.nav-pills>li>a {
+	border-radius: 50px;
+	margin: 0 10px 0 10px;
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background-color: black;
+}
+
+.tabs-space {
+	padding-bottom: 80px;
+}
