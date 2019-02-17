@@ -7,6 +7,10 @@ export const projectsState = {
 	"projects": [
 		{
 			"projectTitle": 'My online CV',
+			"projectLabels": [
+				'ReactJS',
+				'React Bootstrap',
+			],
 			"projectDesc": [
 				'This is the page you are currently browsing.',
 				'It was initially designed the traditional way (HTML, Javascript, jQuery, Bootstrap). However, I recently ' +
@@ -24,11 +28,15 @@ export const projectsState = {
 				{
 					"src": octoLogo,
 					"href": '',
-					"cls": 'pr-octo-logo'},
+					"cls": 'pr-octo-logo'
+				},
 			],
 		},
 		{
 			"projectTitle": 'Garmin MyBus app',
+			"projectLabels": [
+				'Monkey-C'
+			],
 			"projectDesc": [
 				'This is a Garmin watch application that helps you keep track of the bus arrivals on your nearest bus stops.',
 				'It currently works only for London as it makes use of the TFL\'s unified API. The application is using the ' +
@@ -68,6 +76,10 @@ export const projectsState = {
 		},
 		{
 			"projectTitle": 'MyBus Web Service',
+			"projectLabels": [
+				'Python',
+				'Flask'
+			],
 			"projectDesc": [
 				'This is a Flask web service hosted on heroku that was created to support the MyBus Garmin watch app.',
 				'It acts as a proxy service between the watch and TFL\'s endpoints. Requests from the Garmin app go ' +
@@ -100,6 +112,11 @@ export const projectsState = {
 		},
 		{
 			"projectTitle": 'Django Website',
+			"projectLabels": [
+				'Python',
+				'Django',
+				'PostgreSQL'
+			],
 			"projectDesc": [
 				'This project was an attempt to design a website related to homelessness in UK. My main motive, apart from teaching myself ' +
 				 'Python/Django, was to create a portal that could potentially alert people about the daily issues the local homeless communities ' +
@@ -147,6 +164,9 @@ export const projectsState = {
 		},
 		{
 			"projectTitle": 'Release Plan Generator',
+			"projectLabels": [
+				'Python'
+			],
 			"projectDesc": [
 				'This application was designed to serve as a deployments pipeline by generating a release plan for a specific environment set up.',
 				'In a word that has already beed taken over by automated deployments and sophisticated pipelines this approach does seem odd ' +
@@ -169,6 +189,9 @@ export const projectsState = {
 		},
 		{
 			"projectTitle": 'Spareroom Scraper',
+			"projectLabels": [
+				'Python'
+			],
 			"projectDesc": [
 				'A web scraper that simulates an \'advanced search\' in Spareroom and returns a list of results. ' +
 				 'It reads a configuration file and generates a payload to be used for scraping the spareroom endpoints.'

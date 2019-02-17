@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { projectsState } from './../constants/ProjectsTabConst.js'
-import { Collapse, Table, Grid, Row, Col } from 'react-bootstrap';
+import { Collapse, Table, Grid, Row, Col, Badge } from 'react-bootstrap';
 import './../styles/Projects.css';
 
 
@@ -37,6 +37,11 @@ class ProjectsTab extends Component {
 								<div className="pr-title">
 									<span>{project.projectTitle}</span>
 								</div>
+								{project.projectLabels.map((label, index) =>
+									<span key={'label' + index} className="pr-label">
+										<Badge key={'label' + index}>{label}</Badge>
+									</span>
+								)}
 							</Col>
 							{!(this.props.printing) && (
 							<Col xs={12} sm={3}>

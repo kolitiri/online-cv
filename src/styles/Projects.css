@@ -34,3 +34,12 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+.pr-label {
+	padding-right: 5px;
+}
+
+.pr-label span {
+	background-color: lightblue;
+	color: blue;
+}
