@@ -78,21 +78,23 @@ export const projectsState = {
 			"projectTitle": 'MyBus Web Service',
 			"projectLabels": [
 				'Python',
-				'Flask'
+				'aiohttp'
 			],
 			"projectDesc": [
-				'This is a Flask web service hosted on heroku that was created to support the MyBus Garmin watch app.',
+				'This is an updated version of the MyBus web service that was initially designed using Flask.',
+				'Flask has now been replaced with aiohttp.',
+				'This is a web service hosted on heroku that was created to support the MyBus Garmin watch app.',
 				'It acts as a proxy service between the watch and TFL\'s endpoints. Requests from the Garmin app go ' +
-				 'through this service and their responses are filtered before they return back to the watch app.'
+				 'through this service and their responses are filtered before they are redirected back to the watch app.'
 			],
 			"projectTech": [
 				{
 					"category": 'Web framework',
-					"text": 'Flask (1.0.2)'
+					"text": 'aiohttp (3.5.4)'
 				},
 				{
 					"category": 'Backend',
-					"text": 'Python (3.5.0)'
+					"text": 'Python (3.7.2)'
 				},
 			],
 			"projectAckn": 'This application is Powered by TfL Open Data and contains OS data © Crown copyright and database rights 2016',
@@ -101,11 +103,15 @@ export const projectsState = {
 					"title": 'MyBus Garmin app',
 					"href": 'https://github.com/chris220688/garmin-myBus-app'
 				},
+				{
+					"title": 'MyBus Web Service (original Flask implementation)',
+					"href": 'https://github.com/chris220688/myBus-web-service'
+				},
 			],
 			"projectLogos": [
 				{
 					"src": octoLogo,
-					"href": 'https://github.com/chris220688/myBus-web-service',
+					"href": 'https://github.com/chris220688/myBus-web-service-async',
 					"cls": 'pr-octo-logo'
 				},
 			],
