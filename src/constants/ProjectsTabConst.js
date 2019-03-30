@@ -27,7 +27,7 @@ export const projectsState = {
 			"projectLogos": [
 				{
 					"src": octoLogo,
-					"href": '',
+					"href": 'https://github.com/chris220688/online-cv',
 					"cls": 'pr-octo-logo'
 				},
 			],
