@@ -26,7 +26,7 @@ class CareerTab extends Component {
 					<h1 className="cr-print-header">{this.state.tabName}</h1>
 				)}
 				{this.state.roles.map((role, index) =>
-				<div key={'role' + index}>
+				<div className={role.cls} key={'role' + index}>
 					<Grid fluid>
 						<Row className="cr-title-space"
 								onClick={() => this.expandCollapse(role, index)}

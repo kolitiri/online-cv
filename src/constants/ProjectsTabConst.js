@@ -6,17 +6,17 @@ export const projectsState = {
 	"tabName": 'Projects',
 	"projects": [
 		{
-			"projectTitle": 'My online CV',
+			"projectTitle": 'Online CV',
 			"projectLabels": [
 				'ReactJS',
 				'React Bootstrap',
 			],
 			"projectDesc": [
-				'This is the page you are currently browsing.',
-				'It was initially designed the traditional way (HTML, Javascript, jQuery, Bootstrap). However, I recently ' +
-				 'decided to re-write it using ReactJS, in order to experiment with the library.',
-				'It is hosted on heroku and for simplicity there is no connection to a database. ' +
-				 'All information are hardcoded in the state of each component.'
+				'This is the page you are currently browsing. I know, quite boring!',
+				'It was initially designed the "traditional" way (HTML, Javascript, jQuery, Bootstrap). However, I recently ' +
+				 'decided to re-write it using ReactJS just for the sake of experimenting with the library.',
+				'As you probably noticed, it is hosted on heroku and for simplicity there is no connection to a database. ' +
+				 'All information is organised in Json format and is stored in the state of each component.'
 			],
 			"projectTech": [
 				{
@@ -40,9 +40,11 @@ export const projectsState = {
 			"projectDesc": [
 				'This is a Garmin watch application that helps you keep track of the bus arrivals on your nearest bus stops.',
 				'It currently works only for London as it makes use of the TFL\'s unified API. The application is using the ' +
-				 'internal GPS of the watch to pick up your current location. It then makes two requests to TFL\'s endpoints:',
-				'1. The first request returns the bus stops within a radius (selected by the user) of your location.',
-				'2. The second request returns the buses and their prediction times for the stop that you select.'
+				 'internal GPS of the watch to pick up your current location and work out the expected arrivals of the buses ' +
+				 'in your nearest stops.',
+				'The application is written in MonkeyC which is a OO programming language used by the majority of Garmin devices.',
+				'It is accompanied by a Python service responsible for filtering TFL responses and downsizing huge chunks of data ' +
+				'that cannot be handled by the limited resources of most of the devices.'
 			],
 			"projectTech": [
 				{
@@ -174,7 +176,7 @@ export const projectsState = {
 				'Python'
 			],
 			"projectDesc": [
-				'This application was designed to serve as a deployments pipeline by generating a release plan for a specific environment set up.',
+				'This application was designed to serve as a deployments pipeline by generating a release plan for a specific environment.',
 				'In a word that has already beed taken over by automated deployments and sophisticated pipelines this approach does seem odd ' +
 				 'and unrealistic, so you better look for a modern alternative! If you are however stuck in a situation (like myself) where ' +
 				 'updating your pipelines and making your lives easier is not an option, then I hope you might find it useful.'

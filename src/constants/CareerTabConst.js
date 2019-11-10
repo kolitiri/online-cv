@@ -14,11 +14,19 @@ export const careerState = {
 			},
 			"jobLocation": 'Playtech | London, UK',
 			"jobPeriod": '06/2018 – Present',
-			"jobDesc": 'Software engineer, in the events management team.',
+			"jobDesc": 'Backend developer providing solutions for Sports Betting related websites.',
+			"jobResp": 'Developing new products, features and functionality, as well as maintaining the existing ones. BAU!',
+			"sampleWork": [
+				'Implementation and maintenance of applications for collection and aggregation of web feeds from external providers.',
+				'Solutions for handling real-time content updates for Sports Betting related websites.',
+				'Software migrations from legacy systems to new platforms and pipelines.',
+				'Improvement and maintenance of in-house administrative tools and microservices.',
+				'Mentoring and training junior engineers.'
+			],
 			"jobTech": [
 				{
 					"category": 'Back End',
-					"text": 'Python (Tornado)'
+					"text": 'Python (Tornado, asyncio)'
 				},
 				{
 					"category": 'Front End',
@@ -30,13 +38,14 @@ export const careerState = {
 				},
 				{
 					"category": 'Databases',
-					"text": 'Oracle'
+					"text": 'Oracle, MongoDB'
 				},
 				{
 					"category": 'Other',
-					"text": 'Docker, Jenkins, Kubernetes'
+					"text": 'Docker, Kubernetes, RabbitMQ, Codefresh, Rancher'
 				}
-			]
+			],
+			"cls": ''
 		},
 		{
 			"jobTitle": 'Software Engineer',
@@ -46,7 +55,7 @@ export const careerState = {
 			},
 			"jobLocation": 'Openbet | London, UK',
 			"jobPeriod": '10/2015 – 06/2018',
-			"jobDesc": 'Software engineer, in the William Hill team.',
+			"jobDesc": 'Full stack software engineer providing solutions for Sports Betting related websites.',
 			"jobResp": 'Developing new products, features and functionality, as well as maintaining the existing ones. ' +
 						'Full cycle development that includes Requirements capture, analysis, development, performance ' +
 						'testing, Live and pre-production deployments, maintenance.',
@@ -59,7 +68,7 @@ export const careerState = {
 			"jobTech": [
 				{
 					"category": 'Back End',
-					"text": 'Tcl, Bash, occasionally Java and Python'
+					"text": 'Tcl, Bash, occasionally Java'
 				},
 				{
 					"category": 'Front End',
@@ -77,7 +86,8 @@ export const careerState = {
 					"category": 'Other',
 					"text": 'Docker, AWS, Jenkins, Artifactory'
 				}
-			]
+			],
+			"cls": ''
 		},
 		{
 			"jobTitle": 'Graduate Consultant',
@@ -116,7 +126,8 @@ export const careerState = {
 					"category": 'Other',
 					"text": 'Excel, Eclipse BIRT'
 				}
-			]
+			],
+			"cls": 'cr-page-break'
 		},
 	]
 };
