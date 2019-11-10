@@ -23,7 +23,7 @@ class Banner extends Component {
 					<h1 className="bn-author-name">{this.state.authorName}</h1>
 					<Grid fluid>
 						<Row>
-							<Col xsHidden sm={1} className="bn-logos-left">
+							<Col xsHidden smHidden className="bn-logos-left">
 								<button data-toggle="modal" className="bn-printer" onClick={this.print}>
 									<span title="Print" className="glyphicon glyphicon-print"></span>
 								</button>
