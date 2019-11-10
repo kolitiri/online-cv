@@ -101,9 +101,9 @@ export const careerState = {
 			"jobResp": 'Provide timely consultation for problem resolution, manage financial reconciliations, generate ' +
 						'Business Intelligence (BI) reports.',
 			"sampleWork": [
-				'Consulting on the correct usage of the product software.',
+				'Consulting on the correct usage of the software product.',
 				'Generate business intelligence reports based on financial reconciliations.',
-				'Develop small scale Java microservices for internal use such as file monitors and database stats.',
+				'Develop small scale Java microservices for internal use such as file monitors and database metrics.',
 			],
 			"jobTech": [
 				{
