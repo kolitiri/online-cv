@@ -1,10 +1,43 @@
 import octoLogo from './../images/Octocat.png'
 import garminLogo from './../images/garmin.png'
+import chromeLogo from './../images/chrome-store.png'
 
 
 export const projectsState = {
 	"tabName": 'Projects',
 	"projects": [
+		{
+			"projectTitle": 'Kolitiri Bookmarks',
+			"projectLabels": [
+				'ReactJS',
+				'React Bootstrap',
+				'Chrome Extensions API'
+			],
+			"projectDesc": [
+				'This is a chrome extension for managing bookmarks.',
+				'It offers a number of options such as, adding bookmarks and organizing them in folders, ' +
+				'importing bookmarks from the chrome bar and importing/exporting bookmarks from/to a .json file.',
+				'Additionally, it features a dark-mode option for who don\'t feel like looking on the bright side!'
+			],
+			"projectTech": [
+				{
+					"category": 'Front End',
+					"text": 'ReactJS, React Bootstrap, Chrome Extensions API'
+				},
+			],
+			"projectLogos": [
+				{
+					"src": octoLogo,
+					"href": 'https://github.com/chris220688/bookmarks-chrome-extension',
+					"cls": 'pr-octo-logo'
+				},
+				{
+					"src": chromeLogo,
+					"href": 'https://chrome.google.com/webstore/detail/kolitiri-bookmarks/hfnmppffaaifkdapbbnjlbeeefjdhjdm',
+					"cls": 'pr-chrome-logo'
+				}
+			],
+		},
 		{
 			"projectTitle": 'Online CV',
 			"projectLabels": [
