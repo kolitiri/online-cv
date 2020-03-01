@@ -17,7 +17,7 @@ export const projectsState = {
 				'This is a chrome extension for managing bookmarks.',
 				'It offers a number of options such as, adding bookmarks and organizing them in folders, ' +
 				'importing bookmarks from the chrome bar and importing/exporting bookmarks from/to a .json file.',
-				'Additionally, it features a dark-mode option for who don\'t feel like looking on the bright side!'
+				'Additionally, it features a dark-mode option for who those don\'t feel like looking on the bright side!'
 			],
 			"projectTech": [
 				{
