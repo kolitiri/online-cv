@@ -1,11 +1,59 @@
 import octoLogo from './../images/Octocat.png'
 import garminLogo from './../images/garmin.png'
 import chromeLogo from './../images/chrome-store.png'
+import findsourceslogo from './../images/findsources.svg'
 
 
 export const projectsState = {
 	"tabName": 'Projects',
 	"projects": [
+		{
+			"projectTitle": 'FindSources website',
+			"projectLabels": [
+				'ReactJS',
+				'ReactiveSearch',
+				'FastApi',
+				'ElasticSearch',
+				'MongoDb'
+			],
+			"projectDesc": [
+				'This is a website that serves as a search engine for books.',
+				'Users can register as authors and create their own references for any book they might have found interesting.',
+				'The search results are based on such references rather than the actual content of the books.',
+				'The vision is for this to evolve into a free indexing service for books, with a plethora of references, ' +
+				'that will not conflict with any of the authors\' rights.'
+			],
+			"projectTech": [
+				{
+					"category": 'Front End',
+					"text": 'ReactJS, ReactiveSearch, OpenIdConnect'
+				},
+				{
+					"category": 'Backend',
+					"text": 'FastApi, Monstache'
+				},
+				{
+					"category": 'Databases',
+					"text": 'MongoDB, ElasticSearch'
+				},
+				{
+					"category": 'Other',
+					"text": 'Kubernetes, Digital Ocean, Sentry, Github Actions'
+				}
+			],
+			"projectLogos": [
+				{
+					"src": octoLogo,
+					"href": 'https://github.com/chris220688/findsources-website',
+					"cls": 'pr-octo-logo'
+				},
+				{
+					"src": findsourceslogo,
+					"href": 'https://findsources.co.uk/',
+					"cls": 'pr-findsources-logo'
+				}
+			],
+		},
 		{
 			"projectTitle": 'Kolitiri Bookmarks',
 			"projectLabels": [
