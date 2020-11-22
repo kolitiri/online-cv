@@ -44,7 +44,7 @@ export const projectsState = {
 			"projectLogos": [
 				{
 					"src": octoLogo,
-					"href": 'https://github.com/chris220688/findsources-website',
+					"href": 'https://github.com/kolitiri/findsources-website',
 					"cls": 'pr-octo-logo'
 				},
 				{
@@ -76,7 +76,7 @@ export const projectsState = {
 			"projectLogos": [
 				{
 					"src": octoLogo,
-					"href": 'https://github.com/chris220688/bookmarks-chrome-extension',
+					"href": 'https://github.com/kolitiri/bookmarks-chrome-extension',
 					"cls": 'pr-octo-logo'
 				},
 				{
@@ -108,7 +108,7 @@ export const projectsState = {
 			"projectLogos": [
 				{
 					"src": octoLogo,
-					"href": 'https://github.com/chris220688/online-cv',
+					"href": 'https://github.com/kolitiri/online-cv',
 					"cls": 'pr-octo-logo'
 				},
 			],
@@ -147,7 +147,7 @@ export const projectsState = {
 			"projectLogos": [
 				{
 					"src": octoLogo,
-					"href": 'https://github.com/chris220688/garmin-myBus-app',
+					"href": 'https://github.com/kolitiri/garmin-myBus-app',
 					"cls": 'pr-octo-logo'
 				},
 				{
@@ -184,17 +184,17 @@ export const projectsState = {
 			"projectLinks": [
 				{
 					"title": 'MyBus Garmin app',
-					"href": 'https://github.com/chris220688/garmin-myBus-app'
+					"href": 'https://github.com/kolitiri/garmin-myBus-app'
 				},
 				{
 					"title": 'MyBus Web Service (original Flask implementation)',
-					"href": 'https://github.com/chris220688/myBus-web-service'
+					"href": 'https://github.com/kolitiri/myBus-web-service'
 				},
 			],
 			"projectLogos": [
 				{
 					"src": octoLogo,
-					"href": 'https://github.com/chris220688/myBus-web-service-async',
+					"href": 'https://github.com/kolitiri/myBus-web-service-async',
 					"cls": 'pr-octo-logo'
 				},
 			],
@@ -246,7 +246,7 @@ export const projectsState = {
 			"projectLogos": [
 				{
 					"src": octoLogo,
-					"href": 'https://github.com/chris220688/django-apps',
+					"href": 'https://github.com/kolitiri/django-apps',
 					"cls": 'pr-octo-logo'
 				},
 			],
@@ -271,7 +271,7 @@ export const projectsState = {
 			"projectLogos": [
 				{
 					"src": octoLogo,
-					"href": 'https://github.com/chris220688/release-plan-generator',
+					"href": 'https://github.com/kolitiri/release-plan-generator',
 					"cls": 'pr-octo-logo'
 				},
 			],
@@ -294,7 +294,7 @@ export const projectsState = {
 			"projectLogos": [
 				{
 					"src": octoLogo,
-					"href": 'https://github.com/chris220688/spareroom-scraper',
+					"href": 'https://github.com/kolitiri/spareroom-scraper',
 					"cls": 'pr-octo-logo'
 				},
 			],

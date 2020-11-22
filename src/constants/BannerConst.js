@@ -1,7 +1,7 @@
 import gmailLogo from './../images/gmail.png'
 import githubLogo from './../images/github.svg'
 import linkedinLogo from './../images/linkedin.png'
-import pluralsightLogo from './../images/pluralsight.png'
+import twitterLogo from './../images/twitter-logo.webp'
 
 
 export const bannerState = {
@@ -9,12 +9,12 @@ export const bannerState = {
 	"logos": [
 		{
 			"name": 'GitHub',
-			"href": 'https://github.com/chris220688',
+			"href": 'https://github.com/kolitiri',
 			"src": githubLogo
 		},
 		{
 			"name": 'Gmail',
-			"href": 'mailto: clion2206@gmail.com',
+			"href": 'mailto: christos.liontos.pr@gmail.com',
 			"src": gmailLogo
 		},
 		{
@@ -23,9 +23,9 @@ export const bannerState = {
 			"src": linkedinLogo
 		},
 		{
-			"name": 'Pluralsight',
-			"href": 'https://app.pluralsight.com/profile/christos-liontos',
-			"src": pluralsightLogo
+			"name": 'Twitter',
+			"href": 'https://twitter.com/ChristosLiontos',
+			"src": twitterLogo
 		}
 	]
 };
