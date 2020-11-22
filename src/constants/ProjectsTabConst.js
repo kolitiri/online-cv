@@ -55,6 +55,41 @@ export const projectsState = {
 			],
 		},
 		{
+			"projectTitle": 'FARM authentication',
+			"projectLabels": [
+				'FastApi',
+				'ReactJS',
+				'MongoDb',
+				'OpenIdConnect'
+			],
+			"projectDesc": [
+				'A sample project to get started with custom user authentication using the FARM stack. ' +
+				'(FastApi, ReactJS, MongoDB)',
+				'The project is pre-configured to use the OIDC Authorization Code Flow to sign in with Google and Azure.',
+			],
+			"projectTech": [
+				{
+					"category": 'Front End',
+					"text": 'ReactJS, OpenIdConnect'
+				},
+				{
+					"category": 'Backend',
+					"text": 'FastApi'
+				},
+				{
+					"category": 'Databases',
+					"text": 'MongoDB'
+				}
+			],
+			"projectLogos": [
+				{
+					"src": octoLogo,
+					"href": 'https://github.com/kolitiri/fastapi-oidc-react',
+					"cls": 'pr-octo-logo'
+				}
+			],
+		},
+		{
 			"projectTitle": 'Kolitiri Bookmarks',
 			"projectLabels": [
 				'ReactJS',
