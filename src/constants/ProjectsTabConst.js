@@ -2,11 +2,41 @@ import octoLogo from './../images/Octocat.png'
 import garminLogo from './../images/garmin.png'
 import chromeLogo from './../images/chrome-store.png'
 import findsourceslogo from './../images/findsources.svg'
+import pypilogo from './../images/pypi-logo.svg'
 
 
 export const projectsState = {
 	"tabName": 'Projects',
 	"projects": [
+		{
+			"projectTitle": 'Context logger',
+			"projectLabels": [
+				'Python', 'PyPI',
+			],
+			"projectDesc": [
+				'A simple logger that uses python\'s standard contextvars library to inject contextual details in your logs.',
+				'Works nicely with web application frameworks such as Flask and FastApi or any asyncio application.',
+				'It also supports structured logging format, for those who want to go deeper into log filtering and generation of analytics.',
+			],
+			"projectTech": [
+				{
+					"category": 'Backend',
+					"text": 'Python3'
+				}
+			],
+			"projectLogos": [
+				{
+					"src": octoLogo,
+					"href": 'https://github.com/kolitiri/contextlogger',
+					"cls": 'pr-octo-logo'
+				},
+				{
+					"src": pypilogo,
+					"href": 'https://pypi.org/project/contextlogger/',
+					"cls": 'pr-pypi-logo'
+				}
+			],
+		},
 		{
 			"projectTitle": 'FindSources website',
 			"projectLabels": [
@@ -18,10 +48,12 @@ export const projectsState = {
 			],
 			"projectDesc": [
 				'This is a website that serves as a search engine for books.',
-				'Users can register as authors and create their own references for any book they might have found interesting.',
-				'The search results are based on such references rather than the actual content of the books.',
-				'The vision is for this to evolve into a free indexing service for books, with a plethora of references, ' +
-				'that will not conflict with any of the authors\' rights.'
+				'Users can not only search, but also register as authors and create their own references to their favorite books.',
+				'The search results are based on such references rather than the actual content of the books, ' +
+				'respecting in this way the authors\' copyrights.',
+				'It\'s the users\' input that defines the search results and not the maintainer\'s judgment.',
+				'The vision is for this to evolve into a free indexing service for books, with a plethora of ' +
+				'references, that can be used for educational purposes.'
 			],
 			"projectTech": [
 				{
